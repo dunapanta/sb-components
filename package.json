@@ -1,8 +1,25 @@
 {
-  "name": "my-story-book",
-  "private": true,
-  "version": "0.0.0",
+  "name": "du-my-story-book-components",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "homepage": "dunapanta.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dunapanta/sb-components"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
